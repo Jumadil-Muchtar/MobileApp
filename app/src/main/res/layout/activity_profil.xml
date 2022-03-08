@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="600dp"
+        android:layout_height="450dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/japanese_wave_pattern" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bgshape" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myphoto" />
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="420dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Name "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:text=" Jumadil"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+                </TableRow>
+
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="NIM "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:text=" H071201061"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Study Program "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:text=" Information System"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Faculty "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:text=" MIPA"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Class Year "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:text=" 2020"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Gender "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:text=" Male"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Place of Birth "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:text=" Sidenreng Rappang"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Date of Birth "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:text=" 05 July 2002"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Address "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:width="150dp"
+                        android:text="Jl. Korban 40000 Jiwa, Kel. Arateng, Kec. Tellu Limpoe, Kab. Sidrap"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Hobby "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:width="160dp"
+                        android:text="Watching and listening to music"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="Mobile Phone"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:width="160dp"
+                        android:text="+6288242669584"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_column="1"
+                        android:width="150dp"
+                        android:padding="3dp"
+                        android:text="E-mail Address "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:text=" : "
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:width="160dp"
+                        android:text="jumadilmuchtar431@gmail.com"
+                        android:textColor="#ffffff"
+                        android:textSize="19sp" />
+
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/greenLight"
+            android:layout_margin="5dp"
+            android:text="Home"
+            android:textColor="@color/black"
+            android:onClick="profilToHome"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_margin="5dp"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/greenLight"
+            android:text="MY SKILL"
+            android:textColor="@color/black"
+            android:onClick="profilToSkill"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
